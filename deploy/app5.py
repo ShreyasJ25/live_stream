@@ -22,4 +22,4 @@ def vid():
 
 
 if __name__ == "__main__":
-    app5.run(debug=True,port=5001)
+    app5.run(debug=True,host='0.0.0.0',port=5001)
